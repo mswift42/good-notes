@@ -8,9 +8,7 @@ public class Task {
     private Date mScheduled;
     private UUID mID;
 
-    Task(String summary, Date scheduled) {
-        this.mSummary = summary;
-        this.mScheduled = scheduled;
+    public Task() {
         mID = UUID.randomUUID();
     }
 
