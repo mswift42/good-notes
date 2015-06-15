@@ -1,7 +1,8 @@
 package mswift42.com.github.good_notes;
 
-/**
- * Created by severin on 15/06/15.
- */
+import java.util.Date;
+
 public class Task {
+    private String mSummary;
+    private Date mScheduled;
 }
