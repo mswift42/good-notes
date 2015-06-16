@@ -4,4 +4,8 @@ import java.util.ArrayList;
 
 public class TaskList {
    private ArrayList<Task> mTasks;
+
+   public void addTask(Task task) {
+      mTasks.add(task);
+   }
 }
