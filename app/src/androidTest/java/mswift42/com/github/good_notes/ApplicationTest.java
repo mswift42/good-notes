@@ -14,5 +14,6 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
         super(Application.class);
         TaskTest.task_intitializes_correctly();
         TaskListTest.taskList_withonetask();
+        TaskListTest.taskList_getTaskwithId();
     }
 }

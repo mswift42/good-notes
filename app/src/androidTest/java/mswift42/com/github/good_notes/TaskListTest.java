@@ -13,4 +13,12 @@ public class TaskListTest {
         tasks.addTask(task);
         assertEquals(tasks.getTasks().size(),1);
     }
+    @Test
+    public static void taskList_getTaskwithId () {
+        TaskList tasks = new TaskList();
+        Task task = new Task();
+        tasks.addTask(task);
+        Task t2 = tasks.getTask(task.getID());
+        assertEquals(t2.getID(), task.getID());
+    }
 }
