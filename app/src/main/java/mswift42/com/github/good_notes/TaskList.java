@@ -6,6 +6,10 @@ import java.util.UUID;
 public class TaskList {
    private ArrayList<Task> mTasks;
 
+    public TaskList() {
+        mTasks = new ArrayList<Task>();
+    }
+
    public ArrayList<Task> getTasks() {
       return mTasks;
    }
