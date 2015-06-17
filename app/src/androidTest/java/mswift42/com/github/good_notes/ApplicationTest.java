@@ -13,5 +13,6 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
     public ApplicationTest() {
         super(Application.class);
         TaskTest.task_intitializes_correctly();
+        TaskListTest.taskList_withonetask();
     }
 }
